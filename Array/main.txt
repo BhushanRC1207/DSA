@@ -1,0 +1,72 @@
+# Array : 
+
+- Array is a first data structure.
+- data structures to store data.
+- store same type of data.
+- contiguous in memory + linear.
+
+a) linear
+b) hierarchical
+
+
+# Syntax
+dataType varName [sizeOfArray];
+e.g. int marks[5];
+
+
+
+H.W.
+- WAF to calculate sum & product of all numbers in an Array
+- WAF to swap the max & min number of an Array
+- WAF to print all the unique values in an Array
+- WAF to print intersection of 2 arrays
+- WAF to apply linear search on vector
+- WAF to reverse vector using function.
+
+
+# STL (standard template library)
+
+# STL Container
+- vectors
+- stack
+- queue
+- set
+
+
+# Vector Syntax
+vector<int> vec;
+vetor<int> vec={1,2,3};
+vector<int> vec(3,0);  //(size of array, value)
+
+
+# iterate on vector using special for each loop
+for(int value: vector_name){  // i is a vector value not a vector index
+    cout << value << endl;
+}
+
+
+# Vector functions
+- size
+- push_back
+- pop_back
+- front
+- back
+- at
+
+
+|-----------------------------------------------------------|
+|        Static Allocation    |   Dynamic Allocation        |
+|-----------------------------------------------------------|
+|        compile time         |     run time                |    
+|-----------------------------------------------------------|
+|        used stack memory    |   used heap memory          |
+|-----------------------------------------------------------|
+|        e.g. array           |   e.g. vector               |
+|-----------------------------------------------------------|
+
+
+# n ^ n = 0 (XOR)
+# n ^ 0 = n (XOR)
+
+
+# Number of subArray = (n)*(n+1)/2
